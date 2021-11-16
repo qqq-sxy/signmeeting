@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+   font-size : 12px;
+   background-color: #f0f2f5;   
+}
+
+/* 点击input不会出现一个黑框 */
+input:focus{outline: none;border: 1px solid white;}
+
+ul li{
+    list-style-type:none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* select {
+    background-color: #ffffff;
+    border: 0.1rem solid #e8e8e8;
+    /* 去掉下拉列表后的小三角 */
+   /* appearance: none;
+    /* 火狐 */
+    /*-moz-appearance: none;  
+    /* Safari  Chorm */
+    /*-webkit-appearance: none;*/
+
+
+
+
+
+
+select{
+    font-family: "微软雅黑";
+    /* margin:100px; */
+    background: rgba(0,0,0,0);
+    width: 5rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    color: #16b2ee;
+    text-align: center;
+    border: 1px #1a1a1a solid;
+    border-radius: 5px;
+}
+option{
+    color: black;
+    background: #f0f2f5;
+    line-height: 2rem;
+}
+select:focus{
+    border: 2px #ddd solid;
+    box-shadow: 0 0 15px 1px #DDDDDD;
+}
+option:hover{
+    background: #EBCCD1;
+}
+
+

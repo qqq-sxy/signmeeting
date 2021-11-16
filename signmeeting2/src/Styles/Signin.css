@@ -1,0 +1,40 @@
+.Signin-body {
+    width: 100%;
+    height: 30rem;
+}
+
+.Signin-body h3{
+    padding-top: 3rem;
+    padding-left: 8.5rem;
+    padding-bottom: 7rem;
+    font-size: 1.5rem;
+}
+
+.Signin-body .Signin-input {
+    width: 16.4rem;
+    height: 2rem;
+    margin-left: 3.3rem;
+    margin-bottom: 1rem;
+    background-color: #4f77ff;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 2%;
+    box-shadow: #4f77ff 0px 2px 5px;
+}
+
+.Signin-body span {
+    padding-left: 16rem;
+    color: red;
+}
+
+.Signin-body ul li input{
+    width: 15rem;
+    height: 2rem;
+    margin-left: 3.5rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    border: 0;
+    color: #708291;
+    border-radius: 2%;
+    box-shadow: #767676 0px 2px 5px;
+}

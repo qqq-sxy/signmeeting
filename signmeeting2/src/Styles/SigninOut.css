@@ -1,0 +1,57 @@
+.SigninOut {
+    width: 40rem;
+    height: 30rem;
+    margin-left: 25%;
+    margin-top: 7%;
+    position: relative;
+    background-color: #f3f3f3;
+    box-shadow: black  0px 2px 5px;
+}
+
+.SigninOut-left {
+    width: 40%;
+    height: 30rem;
+    background-color: #020003;
+}
+.SigninOut-left a {
+    color: #fff;
+}
+.SigninOut-left img {
+    padding-left: 2rem;
+}
+.SigninOut-left .littleLogin {
+    position: absolute;
+    top: 17rem;
+    left: 2rem;
+    width: 12rem;
+    height: 3rem;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 3rem;
+    background-color: #00aced;
+    border-radius: 5%;
+}
+.SigninOut-left .littleRegister {
+    position: absolute;
+    top: 21rem;
+    left: 2rem;
+    width: 12rem;
+    height: 3rem;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 3rem;
+    background-color: #c32f10;
+    border-radius: 5%;
+}
+
+
+.SigninOut-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 30rem;
+    background-color: #ffffff;
+}   
+    
+

@@ -1,0 +1,27 @@
+.Index-top {
+    position: relative;
+    height: 4rem;
+    width: 100%;
+    text-align: center;
+    line-height: 4rem;
+    border-bottom: 0.07rem solid #00aced;
+}
+
+.Index-top span {
+    font-size: 0.9rem;
+}
+
+
+.Index-top .Index-top-span1 {
+    position: absolute;
+    left : 4rem;
+}
+
+.Index-top .Index-top-span2 {
+    position: absolute;
+    right : 4rem;
+}
+
+.Index-bottom {
+    margin-top: 1rem;
+}
